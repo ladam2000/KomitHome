@@ -21,8 +21,7 @@
 
 /* Some left and right padding inside the container */
 .container {
-  padding: 0 18px;
-  color: rgb(31, 113, 202)
+  padding: 0 16px;
 }
 
 /* Clear floats */
@@ -33,7 +32,7 @@
 }
 
 .title {
-  color: grey;
+  color: rgb(31, 113, 202);
 }
 
 .button {
