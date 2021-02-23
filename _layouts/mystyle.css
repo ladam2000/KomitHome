@@ -32,7 +32,7 @@
 }
 
 .title {
-  color: grey;
+  color: blue;
 }
 
 .button {
@@ -48,5 +48,5 @@
 }
 
 .button:hover {
-  background-color: #555;
+  background-color: blue;
 }
