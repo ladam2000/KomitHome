@@ -25,7 +25,12 @@
   color: rgb(31, 113, 202)
 }
 
-
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 .title {
   color: grey;
