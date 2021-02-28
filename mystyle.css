@@ -29,7 +29,7 @@
 .container::after, .row::after {
   content: "";
   clear: both;
-  display: table;
+  display: line;
 }
 
 .title {
