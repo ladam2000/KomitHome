@@ -26,11 +26,11 @@ function submitToAPI(e) {
        var name = $("#name-input").val();
        var phone = $("#phone-input").val();
        var email = $("#email-input").val();
-       var hossz = $("#hossz-input").val();
-       var honnan = $("#honnan-input").val();
-       var hova = $("#hova-input").val();
-       var magassag = $("#magassag-input").val();
-       var gyakorisag = $("#gyakorisag-input").val();
+       var iranyitoszam = $("#iranyitoszam-input").val();
+       var varos = $("#varos-input").val();
+       var utca = $("#utca-input").val();
+       var epulet = $("#epulettipusa-input").val();
+       var igenyeltszolg = $("igenyeltszolg-input").val();
        var desc = $("#description-input").val();
        var data = {
           name : name,
