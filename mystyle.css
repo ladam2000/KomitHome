@@ -1,6 +1,6 @@
 /* Three columns side by side */
 .column {
-  float: none;
+  float: inherit;
   width: 40%;
   margin-bottom: 16px;
   padding: 10px;
