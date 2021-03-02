@@ -1,6 +1,6 @@
 /* Three columns side by side */
 .column {
-  
+  float: left;
   width: 40%;
   margin-bottom: 16px;
   padding: 0 8px;
