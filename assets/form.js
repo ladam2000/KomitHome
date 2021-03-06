@@ -29,8 +29,8 @@ function submitToAPI(e) {
        var iranyitoszam = $("#postal-code").val();
        var varos = $("#city").val();
        var utca = $("#street-address").val();
-       var epulet = $("#house").val();
-       var igenyeltszolg = $("#igenyeltszolg-input").val();
+       var epulet = $("#epulet").val();
+       var igenyeltszolg = $("#igenyeltszolg").val();
        var desc = $("#description-input").val();
        var data = {
           name : name,
