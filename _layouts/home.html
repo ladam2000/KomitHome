@@ -193,8 +193,8 @@ layout: default
           <input type="street-address" style="height:35px;" id="street-address" placeholder="Utca" class="form-control" style="width:100%;" /><br/>
 </div>
 
-<div class="field mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-4">
-  <h2 style="color:#7F7F7F";>Épület típusa</h2>
+<div class="field mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-6">
+
   <select type="select" style="height:47px;" id="house" placeholder="Épület típusa" class="form-control" style="width:100%;">
     <<option value="lakas">lakás</option>
     <<option value="nyaralo">nyaraló</option>
@@ -209,8 +209,9 @@ layout: default
 </div>
 
 <div class="field mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-6">
-  <h2 style="color:#7F7F7F";>Szolgáltatás</h2>
+
   <select type="select" style="height:47px;" id="igenyeltszolg-input" placeholder="Igényelt szolgáltatások" class="form-control" style="width:100%;" >
+
     <<option value="villanyszereles">villanyszerelés</option>
     <<option value="felujitas">felújítás</option>
     <<option value="villanyvedelmi">villanyvédelmi rendszerek</option>
@@ -220,6 +221,24 @@ layout: default
     <<option value="klímaésszellőzőberndezések">klíma és szellőző berndezések</option>
     <<option value="egyeb">egyéb</option>
   </select>
+</div>
+<div class="field mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12">
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" id="villanyszereles">
+  <label class="form-check-label" for="villanyszerelés">villanyszerelés</label>
+</div>
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" id="felújítás">
+  <label class="form-check-label" for="felújítás">felújítás</label>
+</div>
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" id="villanyvédelmi">
+  <label class="form-check-label" for="villanyvédelmi rendszerek">villanyvédelmi rendszerek</label>
+</div>
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" id="javítás">
+  <label class="form-check-label" for="javítás">javítás</label>
+</div>
 </div>
 
 <div
