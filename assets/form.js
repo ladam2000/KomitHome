@@ -26,21 +26,21 @@ function submitToAPI(e) {
        var name = $("#name-input").val();
        var phone = $("#phone-input").val();
        var email = $("#email-input").val();
-       var iranyitoszam = $("#iranyitoszam-input").val();
-       var varos = $("#varos-input").val();
-       var utca = $("#utca-input").val();
-       var epulet = $("#epulettipusa-input").val();
-       var igenyeltszolg = $("igenyeltszolg-input").val();
+       var iranyitoszam = $("#postal-code").val();
+       var varos = $("#city").val();
+       var utca = $("#street-address").val();
+       var epulet = $("#house").val();
+       var igenyeltszolg = $("#igenyeltszolg-input").val();
        var desc = $("#description-input").val();
        var data = {
           name : name,
           phone : phone,
           email : email,
-          honnan: honnan,
-          hova: hova,
-          hossz: hossz,
-          magassag: magassag,
-          gyakorisag: gyakorisag,
+          iranyitoszam: iranyitoszam,
+          varos: varos,
+          utca: utca,
+          epulet: epulet,
+          igenyeltszolg: igenyeltszolg,
           desc : desc
         };
 
