@@ -208,40 +208,39 @@ layout: default
   </select>
 </div>
 
-<div class="field mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-6">
-
-  <select type="select" style="height:47px;" id="igenyeltszolg-input" placeholder="Igényelt szolgáltatások" class="form-control" style="width:100%;" >
-
-    <<option value="villanyszereles">villanyszerelés</option>
-    <<option value="felujitas">felújítás</option>
-    <<option value="villanyvedelmi">villanyvédelmi rendszerek</option>
-    <<option value="javtas">javítás</option>
-    <<option value="terheleselosztas">terheléselosztás</option>
-    <<option value="iparielektronika">ipari elektronika</option>
-    <<option value="klímaésszellőzőberndezések">klíma és szellőző berndezések</option>
-    <<option value="egyeb">egyéb</option>
-  </select>
-</div>
-<div class="field mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-12">
-<div class="form-check form-switch">
-  <input class="form-check-input" type="checkbox" id="villanyszereles">
-  <label class="form-check-label" for="villanyszerelés">villanyszerelés</label>
-</div>
-<div class="form-check form-switch">
-  <input class="form-check-input" type="checkbox" id="felújítás">
-  <label class="form-check-label" for="felújítás">felújítás</label>
-</div>
-<div class="form-check form-switch">
-  <input class="form-check-input" type="checkbox" id="villanyvédelmi">
-  <label class="form-check-label" for="villanyvédelmi rendszerek">villanyvédelmi rendszerek</label>
-</div>
-<div class="form-check form-switch">
-  <input class="form-check-input" type="checkbox" id="javítás">
-  <label class="form-check-label" for="javítás">javítás</label>
-</div>
+<div class="container">
+  <p>The form below contains three inline checkboxes:</p>
+  <form>
+    <label class="checkbox-inline">
+      <input type="checkbox" value="villanyszereles" id="villanyszereles">villanyszereles
+    </label>
+    <label class="checkbox-inline">
+      <input type="checkbox" value="felújítás" id="felújítás">felújítás
+    </label>
+    <label class="checkbox-inline">
+      <input type="checkbox" value="villanyvedelmi" id="villanyvedelmi">villanyvédelmi rendszerek
+    </label>
+    <label class="checkbox-inline">
+      <input type="checkbox" value="javitas" id="javitas">javítás
+    </label>
+    <label class="checkbox-inline">
+      <input type="checkbox" value="terheleselosztas" id="terheleselosztas">terheléselosztás
+    </label>
+    <label class="checkbox-inline">
+      <input type="checkbox" value="elektronika" id="elektronika">ipari elektronika
+    </label>
+    <label class="checkbox-inline">
+      <input type="checkbox" value="klima" id="klima">klíma és szellőző berndezések
+    </label>
+    <label class="checkbox-inline">
+      <input type="checkbox" value="egyeb" id="egyeb">egyéb
+    </label>
+  </form>
 </div>
 
-<div
+
+
+<div>
 
 <div class="area field mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12" >
           <textarea id="description-input" rows="3" placeholder="Ajánlatkérés részletezése" class="form-control" style="width:100%;"></textarea><br/>
